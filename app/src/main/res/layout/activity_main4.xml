@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/background">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="About Project"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="85dp"
+          android:text="In this project, we are going to build a Smart Farming System using IoT. The objective of this project is to offer assistance to farmers in getting Live Data (Temperature, Humidity, Soil Moisture, Soil Temperature) for efficient environment monitoring which will enable them to increase their overall yield and quality of products. This smart agriculture using IoT system powered by NodeMCU consists of a DHT11 sensor, Moisture sensor, DS18B20 Sensor Probe, LDR, Water Pump, and 12V led strip. When the IoT-based agriculture monitoring system starts, it checks the Soil moisture, temperature, humidity, and soil temperature. It then sends this data to the IoT cloud for live monitoring. If the soil moisture goes below a certain level, it automatically starts the water pump. We previously build Automatic Plant Irrigation System which sends alerts on mobile but doesn’t monitor other parameters. Apart from this, Rain alarm and soil moisture detector circuit can also be helpful in building Smart Agriculture Monitoring System."
+          android:textColor="@color/white"
+          android:justificationMode="inter_word"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+
+
+          />
+
+
+
+
+
+</RelativeLayout>
